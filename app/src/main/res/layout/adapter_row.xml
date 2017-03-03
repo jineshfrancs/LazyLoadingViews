@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+   android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <test.jinesh.loadingviews.LoadingImageView
+        android:layout_width="100dp"
+        android:id="@+id/cityImage"
+        android:layout_margin="10dp"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="100dp">
+        <test.jinesh.loadingviews.LoadingTextView
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:id="@+id/city"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_height="0dp" />
+        <test.jinesh.loadingviews.LoadingTextView
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:id="@+id/state"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_height="0dp" />
+        <test.jinesh.loadingviews.LoadingTextView
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/country"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_height="0dp" />
+    </LinearLayout>
+</LinearLayout>
