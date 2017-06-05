@@ -11,7 +11,7 @@ import android.widget.ImageView;
  * Created by Jinesh on 03-03-2017.
  */
 
-public class LoadingImageView extends ImageView {
+public class LoadingImageView extends android.support.v7.widget.AppCompatImageView {
     private boolean isLoading=false;
     private int width,height,x,y,rX,rY,rWidth,rHeight;
     private Paint loadingPaint;
