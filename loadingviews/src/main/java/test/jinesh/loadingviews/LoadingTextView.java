@@ -12,7 +12,7 @@ import android.widget.TextView;
  * Created by Jinesh on 03-03-2017.
  */
 
-public class LoadingTextView extends TextView {
+public class LoadingTextView extends android.support.v7.widget.AppCompatTextView {
     private boolean isLoading=false;
     private int width,height,x,y,rX,rY,rWidth,rHeight;
     private Paint loadingPaint;
